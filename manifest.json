@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "DeepSeek Chat Tracker",
+  "version": "3.0",
+  "description": "精确记录 DeepSeek 对话时间（完整可视化版）",
+  "permissions": ["storage"],
+  "host_permissions": ["*://chat.deepseek.com/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "查看 DeepSeek 对话记录"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://chat.deepseek.com/*"],
+      "js": ["inject.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    },
+    {
+      "matches": ["*://chat.deepseek.com/*"],
+      "js": ["content_script.js"],
+      "run_at": "document_start",
+      "world": "ISOLATED"
+    }
+  ]
+}
