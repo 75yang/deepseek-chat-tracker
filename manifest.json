@@ -7,16 +7,16 @@
   "host_permissions": ["*://chat.deepseek.com/*"],
   
   "icons": {
-    "48": "icons/icon12888.png",
-    "128": "icons/icon12888.png"
+    "48": "icon12888.png",
+    "128": "icon12888.png"
   },
 
   "action": {
     "default_popup": "popup.html",
     "default_title": "查看 DeepSeek 对话记录",
     "default_icon": {
-      "48": "icons/icon12888.png",
-      "128": "icons/icon12888.png"
+      "48": "icon12888.png",
+      "128": "icon12888.png"
     }
   },
 
