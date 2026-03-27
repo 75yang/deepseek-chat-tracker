@@ -5,7 +5,7 @@
 ---
 <h2 id="中文">🇨🇳 中文介绍</h2>
 
-一个轻量级的 Chrome/Edge 浏览器插件，用于精准记录你在 DeepSeek 网页端每一次对话的具体时间戳和提示词（Prompt），并支持一键导出为 CSV。
+一个轻量级的 Chrome/Edge/FireFox 浏览器插件，用于精准记录你在 DeepSeek 网页端每一次对话的具体时间戳和提示词（Prompt），并支持一键导出为 CSV。
 
 **🚀 核心功能**
 - **底层拦截**：直接在 MAIN 世界劫持 `XMLHttpRequest (XHR)`，不怕前端改版。
@@ -15,14 +15,14 @@
 
 **🛠️ 安装说明 (本地加载)**
 1. 下载本项目并解压文件夹。
-2. 打开浏览器扩展页面 (`chrome://extensions/` 或 `edge://extensions/`)。
-3. 开启右上角的 **“开发者模式”**。
+2. 打开浏览器扩展页面 (`chrome://extensions/` 或 `edge://extensions/`或`about:debugging`)。
+3. 开启右上角的 **“开发者模式”**(FireFox是点击 **“临时载入附加组件”**)。
 4. 点击 **“加载已解压的扩展程序”**，选择该文件夹即可。
 
 ---
 <h2 id="english">🇬🇧 English</h2>
 
-A lightweight Chrome/Edge extension to accurately record the exact timestamps and prompts of every conversation on the DeepSeek web interface, supporting one-click CSV export.
+A lightweight Chrome/Edge/FireFox extension to accurately record the exact timestamps and prompts of every conversation on the DeepSeek web interface, supporting one-click CSV export.
 
 **🚀 Core Features**
 - **Low-level Interception**: Hijacks `XMLHttpRequest (XHR)` directly, immune to frontend UI updates.
@@ -32,6 +32,6 @@ A lightweight Chrome/Edge extension to accurately record the exact timestamps an
 
 **🛠️ Installation (Developer Mode)**
 1. Download and unzip this repository.
-2. Open the extensions page (`chrome://extensions/` or `edge://extensions/`).
-3. Enable **"Developer mode"** in the top right corner.
+2. Open the extensions page (`chrome://extensions/` or `edge://extensions/`or`about:debugging`).
+3. Enable **"Developer mode"** in the top right corner (FireFox是点击 **“Load Temporary Add-on...”**).
 4. Click **"Load unpacked"** and select the folder.
